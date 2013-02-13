@@ -1,10 +1,7 @@
 # clj-kata
 
-A Clojure library designed to ... well, that part is up to you.
+A playground for learning some Clojure.
 
-## Usage
-
-FIXME
 
 ## License
 
