@@ -23,3 +23,7 @@
 (defn ceil
 	[n] 
 	(+ n (- 1.0 (mod n 1))))
+
+(defn floor
+  [n] 
+  (- n (mod n 1)))
