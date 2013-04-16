@@ -12,3 +12,14 @@
            (lazy-cat (qsort (for [y L2 :when (<  y pivot)] y))
                      (list pivot)
                      (qsort (for [y L2 :when (>= y pivot)] y))))))
+
+(defn exp 
+	[x n]
+	(reduce * (repeat n x)))
+
+(defn log2 [n]
+	(/ (Math/log n) (Math/log 2)))
+
+(defn ceil
+	[n] 
+	(+ n (- 1.0 (mod n 1))))
